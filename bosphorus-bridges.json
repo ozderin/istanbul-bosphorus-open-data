@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bridges over the Bosphorus Strait",
+  "description": "All three road bridges spanning the Bosphorus between European and Asian Istanbul, plus the Marmaray rail tunnel. Coordinates are at mid-span. Lighting and photography notes from on-water observation.",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "publisher": {
+    "name": "Bosphorus Night",
+    "url": "https://www.bosphorusnight.com",
+    "license": "TÜRSAB A-17672"
+  },
+  "lastUpdated": "2026-05-02",
+  "bridges": [
+    {
+      "id": "bosphorus_bridge",
+      "name_en": "Bosphorus Bridge (15 July Martyrs Bridge)",
+      "name_tr": "Boğaziçi Köprüsü (15 Temmuz Şehitler Köprüsü)",
+      "wikidata": "Q183340",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q183340",
+      "type": "Suspension",
+      "openedYear": 1973,
+      "renamedYear": 2016,
+      "totalLength_m": 1560,
+      "mainSpan_m": 1074,
+      "deckHeight_m": 64,
+      "midspanCoordinates": { "lat": 41.0451, "lon": 29.0337 },
+      "europeanAnchor": "Ortaköy / Beşiktaş",
+      "asianAnchor": "Beylerbeyi / Üsküdar",
+      "lighting": {
+        "type": "LED, programmable",
+        "patterns": ["Solid colour", "Slow gradient", "National holiday flag colours", "Solidarity tributes"],
+        "notes": "Pattern visible from ~21:00 onwards year-round. From a tour boat the bridge appears overhead at the boat's first turnaround point near Ortaköy Mosque."
+      },
+      "photography": {
+        "bestFromBoat": "Approach from the south (Kabataş side) at sunset; bridge is in front with Ortaköy Mosque in foreground.",
+        "bestFromShore": "Ortaköy waterfront promenade — wide-angle frame including mosque + bridge.",
+        "blueHourOptimal": "20–40 min after official sunset"
+      }
+    },
+    {
+      "id": "fatih_sultan_mehmet",
+      "name_en": "Fatih Sultan Mehmet Bridge",
+      "name_tr": "Fatih Sultan Mehmet Köprüsü",
+      "wikidata": "Q193715",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q193715",
+      "type": "Suspension",
+      "openedYear": 1988,
+      "totalLength_m": 1510,
+      "mainSpan_m": 1090,
+      "deckHeight_m": 64,
+      "midspanCoordinates": { "lat": 41.0911, "lon": 29.0610 },
+      "europeanAnchor": "Hisarüstü (Rumelihisarı side)",
+      "asianAnchor": "Kavacık",
+      "lighting": {
+        "type": "LED",
+        "notes": "Less programmable than Bosphorus Bridge; typically a steady warm white or pattern alongside the older bridge during national events."
+      },
+      "photography": {
+        "bestFromBoat": "Northern leg of cruise route, between Rumelihisarı (Q615395) and Anadolu Hisarı.",
+        "notes": "Some shorter dinner-cruise routes turn back before reaching this bridge — confirm with operator."
+      }
+    },
+    {
+      "id": "yavuz_sultan_selim",
+      "name_en": "Yavuz Sultan Selim Bridge",
+      "name_tr": "Yavuz Sultan Selim Köprüsü",
+      "wikidata": "Q1370779",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1370779",
+      "type": "Cable-stayed + suspension hybrid",
+      "openedYear": 2016,
+      "totalLength_m": 2164,
+      "mainSpan_m": 1408,
+      "deckHeight_m": 59,
+      "midspanCoordinates": { "lat": 41.2002, "lon": 29.1086 },
+      "europeanAnchor": "Garipçe, Sarıyer",
+      "asianAnchor": "Poyrazköy, Beykoz",
+      "lighting": {
+        "type": "LED architectural",
+        "notes": "Hybrid suspension–cable-stayed pylons make this bridge structurally distinct."
+      },
+      "photography": {
+        "bestFromBoat": "Not visible from standard 3-hour Bosphorus dinner cruises (too far north). Visible from full-day Boğaz Hattı tours that go to Anadolu Kavağı."
+      }
+    },
+    {
+      "id": "marmaray",
+      "name_en": "Marmaray Tunnel",
+      "name_tr": "Marmaray Tüneli",
+      "wikidata": "Q1881288",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1881288",
+      "type": "Immersed-tube rail tunnel",
+      "openedYear": 2013,
+      "totalLength_m": 13600,
+      "underseaSection_m": 1387,
+      "deepestPoint_m": -56,
+      "europeanStation": "Sirkeci",
+      "asianStation": "Üsküdar",
+      "minutesEuropeAsia": 4,
+      "notes": "Not a bridge but the fourth Bosphorus crossing. Useful for Asian-side hotel guests heading to European-side dinner-cruise piers."
+    }
+  ]
+}

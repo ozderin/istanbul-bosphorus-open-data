@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hotel district to Kabataş Pier — typical transfer times",
+  "description": "Approximate driving times by district from common Istanbul tourist hotel zones to Kabataş Pier (departure point for most Bosphorus dinner cruises). Times are typical evening (19:30–20:30) traffic estimates and may vary ±10 min by congestion. Distance is straight-line; actual road distance is longer.",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "publisher": {
+    "name": "Bosphorus Night",
+    "url": "https://www.bosphorusnight.com",
+    "license": "TÜRSAB A-17672"
+  },
+  "lastUpdated": "2026-05-02",
+  "destination": {
+    "name": "Kabataş Pier",
+    "coordinates": { "lat": 41.036085, "lon": 28.994866 }
+  },
+  "districts": [
+    {
+      "name_en": "Sultanahmet",
+      "name_tr": "Sultanahmet",
+      "side": "European",
+      "approxCenter": { "lat": 41.0058, "lon": 28.9772 },
+      "tramT1Stop": "Sultanahmet",
+      "tramT1MinutesToKabatas": 18,
+      "drivingMinutesEvening": "15-20",
+      "walkable": false,
+      "notes": "Main historic-peninsula tourist hotel zone. Direct T1 tram to Kabataş is fastest evening option."
+    },
+    {
+      "name_en": "Sirkeci",
+      "name_tr": "Sirkeci",
+      "side": "European",
+      "approxCenter": { "lat": 41.0144, "lon": 28.9774 },
+      "tramT1Stop": "Sirkeci",
+      "tramT1MinutesToKabatas": 14,
+      "drivingMinutesEvening": "12-18",
+      "walkable": false
+    },
+    {
+      "name_en": "Eminönü",
+      "name_tr": "Eminönü",
+      "side": "European",
+      "approxCenter": { "lat": 41.0177, "lon": 28.9707 },
+      "tramT1Stop": "Eminönü",
+      "tramT1MinutesToKabatas": 12,
+      "drivingMinutesEvening": "10-15",
+      "walkable": false
+    },
+    {
+      "name_en": "Laleli",
+      "name_tr": "Laleli",
+      "side": "European",
+      "approxCenter": { "lat": 41.0103, "lon": 28.9558 },
+      "tramT1Stop": "Laleli-Üniversite",
+      "tramT1MinutesToKabatas": 22,
+      "drivingMinutesEvening": "15-25",
+      "walkable": false
+    },
+    {
+      "name_en": "Topkapı",
+      "name_tr": "Topkapı",
+      "side": "European",
+      "approxCenter": { "lat": 41.0224, "lon": 28.9343 },
+      "tramT1Stop": "Topkapı",
+      "tramT1MinutesToKabatas": 30,
+      "drivingMinutesEvening": "20-30"
+    },
+    {
+      "name_en": "Fatih",
+      "name_tr": "Fatih",
+      "side": "European",
+      "approxCenter": { "lat": 41.0186, "lon": 28.9398 },
+      "drivingMinutesEvening": "20-25",
+      "notes": "Wide district; estimates vary by sub-neighbourhood."
+    },
+    {
+      "name_en": "Taksim",
+      "name_tr": "Taksim",
+      "side": "European",
+      "approxCenter": { "lat": 41.0369, "lon": 28.9851 },
+      "funicularF1": "Taksim ↔ Kabataş",
+      "funicularMinutesToKabatas": 2,
+      "drivingMinutesEvening": "8-12",
+      "walkable": false,
+      "notes": "Funicular F1 is the most reliable evening option (~2 min ride)."
+    },
+    {
+      "name_en": "Beyoğlu",
+      "name_tr": "Beyoğlu",
+      "side": "European",
+      "approxCenter": { "lat": 41.0290, "lon": 28.9745 },
+      "drivingMinutesEvening": "8-15",
+      "notes": "Includes Galata, Cihangir, Karaköy. Walking 15–20 min from Galata Tower."
+    },
+    {
+      "name_en": "Beşiktaş",
+      "name_tr": "Beşiktaş",
+      "side": "European",
+      "approxCenter": { "lat": 41.0422, "lon": 29.0083 },
+      "drivingMinutesEvening": "5-10",
+      "walkable": true,
+      "walkingMinutesToKabatas": 18,
+      "notes": "Walking via the Dolmabahçe waterfront promenade is feasible but evening traffic on Çırağan Cad. is heavy."
+    },
+    {
+      "name_en": "Ortaköy",
+      "name_tr": "Ortaköy",
+      "side": "European",
+      "approxCenter": { "lat": 41.0471, "lon": 29.0269 },
+      "drivingMinutesEvening": "10-18",
+      "notes": "Bosphorus-side district just north of Beşiktaş."
+    },
+    {
+      "name_en": "Sütlüce",
+      "name_tr": "Sütlüce",
+      "side": "European",
+      "approxCenter": { "lat": 41.0468, "lon": 28.9494 },
+      "drivingMinutesEvening": "20-30"
+    },
+    {
+      "name_en": "Kağıthane",
+      "name_tr": "Kağıthane",
+      "side": "European",
+      "approxCenter": { "lat": 41.0856, "lon": 28.9714 },
+      "drivingMinutesEvening": "25-35"
+    },
+    {
+      "name_en": "Hilton Istanbul Bosphorus (Harbiye)",
+      "name_tr": "Hilton İstanbul Bosphorus (Harbiye)",
+      "side": "European",
+      "approxCenter": { "lat": 41.0470, "lon": 28.9870 },
+      "drivingMinutesEvening": "8-12",
+      "notes": "Specifically supported pickup point for Bosphorus Night transfers."
+    }
+  ],
+  "notesGeneral": "These are typical evening transfer windows used by private Bosphorus tour operators serving Kabataş departures. Tour-day cancellations of transfers within 3 hours of departure are difficult to honour due to evening traffic on the Bosphorus shore road. Public transit (T1 tram + F1 funicular) is generally faster than driving from historic-peninsula districts after 17:30."
+}

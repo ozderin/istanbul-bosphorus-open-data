@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bosphorus dinner cruise — frequently asked questions",
+  "description": "Common questions about Bosphorus dinner cruises in Istanbul, with concise factual answers. Compiled from real customer questions across WhatsApp, Telegram, and the Bosphorus Night booking funnel (2014–2026, 11,317 customers).",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "publisher": {
+    "name": "Bosphorus Night",
+    "url": "https://www.bosphorusnight.com",
+    "license": "TÜRSAB A-17672"
+  },
+  "lastUpdated": "2026-05-02",
+  "faqs": [
+    {
+      "id": "duration",
+      "question_en": "How long is a Bosphorus dinner cruise?",
+      "answer_en": "Standard Bosphorus dinner cruises run 3 hours, typically 21:00 to 00:00. Boarding usually opens 60 minutes before departure (around 20:00).",
+      "question_tr": "Boğaz akşam yemekli turu ne kadar sürüyor?",
+      "answer_tr": "Standart Boğaz akşam yemekli turları 3 saat sürer, genelde 21:00–00:00. Tekneye giriş kalkıştan 60 dakika önce (20:00 civarı) başlar."
+    },
+    {
+      "id": "departure_point",
+      "question_en": "Where does the Bosphorus dinner cruise depart from?",
+      "answer_en": "Most private dinner cruises depart from Kabataş Pier (41.036, 28.995), located at the southern end of Beyoğlu. Kabataş is reachable by T1 tram (terminus from Sultanahmet) and by F1 funicular from Taksim (~2 minutes).",
+      "question_tr": "Boğaz akşam yemekli turu nereden kalkar?",
+      "answer_tr": "Çoğu özel akşam yemekli turu Kabataş İskelesi'nden kalkar (41.036, 28.995), Beyoğlu'nun güney ucunda. Kabataş'a T1 tramvayla (Sultanahmet'ten son durak) ve F1 füniküleriyle Taksim'den (~2 dakika) ulaşılır."
+    },
+    {
+      "id": "route",
+      "question_en": "What route does a Bosphorus dinner cruise take?",
+      "answer_en": "A typical 3-hour evening route passes Dolmabahçe Palace, Çırağan Palace, Ortaköy Mosque, the Bosphorus Bridge, Bebek Bay, Rumeli Fortress, Anadolu Fortress, Beylerbeyi Palace, and the Üsküdar/Kuzguncuk waterfront before returning to Kabataş.",
+      "question_tr": "Boğaz akşam yemekli turu hangi rotayı izler?",
+      "answer_tr": "Tipik 3 saatlik akşam rotası Dolmabahçe Sarayı, Çırağan Sarayı, Ortaköy Camii, Boğaziçi Köprüsü, Bebek Koyu, Rumelihisarı, Anadolu Hisarı, Beylerbeyi Sarayı ve Üsküdar/Kuzguncuk sahili önünden geçerek Kabataş'a döner."
+    },
+    {
+      "id": "menu",
+      "question_en": "What is included in the dinner menu?",
+      "answer_en": "Standard dinner menus typically include 10 cold mezes, a hot starter, a main course (commonly salmon, sea bass, chicken, or meatballs as options), dessert, and unlimited soft drinks. VIP/premium menus add 15+ premium mezes and steak/rib-eye main course options. Alcohol is usually a paid add-on. Confirm specific inclusions with the operator.",
+      "question_tr": "Akşam yemeği menüsünde neler var?",
+      "answer_tr": "Standart menülerde genelde 10 çeşit soğuk meze, sıcak başlangıç, ana yemek (somon, levrek, tavuk veya köfte seçenekleri), tatlı ve sınırsız meşrubat bulunur. VIP/premium menülerde 15+ premium meze ve dana bonfile/rib-eye gibi ek ana yemekler vardır. Alkol genellikle ek ücretli. Operatörle doğrula."
+    },
+    {
+      "id": "alcohol",
+      "question_en": "Is alcohol included in the price?",
+      "answer_en": "Most dinner cruises do not include alcohol in the base price. It is offered as an add-on, commonly two-glass packages (~€15) or unlimited domestic alcohol (~€25–35). Imported alcohol is rarely available; ask in advance.",
+      "question_tr": "Fiyata alkol dahil mi?",
+      "answer_tr": "Çoğu turda alkol baz fiyata dahil değildir. Eklenti olarak satılır — yaygın olarak 2 bardak paketi (~€15) veya sınırsız yerli alkol (~€25–35). İthal alkol nadiren bulunur, önceden sor."
+    },
+    {
+      "id": "dress_code",
+      "question_en": "Is there a dress code on the dinner cruise?",
+      "answer_en": "Smart-casual is the norm. Most boats have indoor dining areas and outdoor decks, so a light jacket is recommended after sunset (Bosphorus evenings are 5–7°C cooler than the city). No formal dress required for standard packages; some VIP packages suggest evening wear.",
+      "question_tr": "Akşam yemekli turunda kıyafet kuralı var mı?",
+      "answer_tr": "Smart-casual standarttır. Çoğu teknede iç salon ve dış güverte vardır, gün batımından sonra Boğaz şehirden 5–7°C serin olduğu için ince bir mont önerilir. Standart paketler için resmi kıyafet gerekmez; bazı VIP paketler abiye önerir."
+    },
+    {
+      "id": "transfer",
+      "question_en": "Is hotel transfer available to Kabataş Pier?",
+      "answer_en": "Most operators offer paid transfers (~€5–15 per person) from central tourist districts including Sultanahmet, Sirkeci, Eminönü, Taksim, Beşiktaş, Beyoğlu, Ortaköy, Laleli, Topkapı, Fatih, Sütlüce, and Kağıthane. Same-day transfers are usually difficult to arrange after 17:00 due to evening traffic — book in advance.",
+      "question_tr": "Kabataş İskelesi'ne otel transferi var mı?",
+      "answer_tr": "Çoğu operatör Sultanahmet, Sirkeci, Eminönü, Taksim, Beşiktaş, Beyoğlu, Ortaköy, Laleli, Topkapı, Fatih, Sütlüce ve Kağıthane gibi merkezî turistik bölgelerden ücretli transfer sunar (~€5–15/kişi). Akşam trafiği nedeniyle 17:00 sonrası aynı gün transferi zorlaşır — önceden rezervasyon yap."
+    },
+    {
+      "id": "boarding_time",
+      "question_en": "What time should I arrive at the pier?",
+      "answer_en": "For a 21:00 departure, arrive by 20:30 latest. Most operators open boarding at 20:00. Late arrivals are rarely accommodated as boats depart on schedule.",
+      "question_tr": "İskeleye saat kaçta gelmeliyim?",
+      "answer_tr": "21:00 kalkış için en geç 20:30'da iskelede ol. Çoğu operatör 20:00'da binişe açar. Tekneler programlı kalktığı için geç gelenler nadiren alınır."
+    },
+    {
+      "id": "weather",
+      "question_en": "Do dinner cruises run in bad weather?",
+      "answer_en": "Bosphorus dinner cruises operate year-round and rarely cancel. Boats have enclosed indoor dining areas, so rain or wind affects only deck access. Cancellations are limited to severe storms or coast-guard advisory days (typically 2–4 days per year).",
+      "question_tr": "Kötü havada turlar yapılır mı?",
+      "answer_tr": "Boğaz akşam turları yıl boyu çalışır, nadiren iptal olur. Teknelerin kapalı iç salonu olduğu için yağmur/rüzgâr sadece güverteye çıkışı etkiler. İptaller sadece şiddetli fırtına veya sahil güvenlik uyarı günlerinde olur (yılda tipik 2–4 gün)."
+    },
+    {
+      "id": "kids_policy",
+      "question_en": "Are children allowed on dinner cruises?",
+      "answer_en": "Yes. Family-friendly Bosphorus dinner cruises typically charge: ages 0–3 free, ages 4–8 at 50% of adult price, ages 9+ full adult price. Some operators have adult-only VIP options. Confirm policies before booking.",
+      "question_tr": "Akşam turlarına çocuk alınır mı?",
+      "answer_tr": "Evet. Aile dostu Boğaz akşam turlarında genelde 0–3 yaş ücretsiz, 4–8 yaş yetişkinin %50'si, 9 yaş ve üzeri tam yetişkin fiyatından alınır. Bazı operatörler VIP'leri sadece yetişkinlere açar. Rezervasyon öncesi politikayı doğrula."
+    },
+    {
+      "id": "payment",
+      "question_en": "How do I pay for a Bosphorus dinner cruise?",
+      "answer_en": "Many independent Istanbul operators (including Bosphorus Night) use 'pay on the boat' — no prepayment, you settle at the venue in cash or card. OTAs like Viator, GetYourGuide, Klook collect payment online at booking. Always confirm the payment model before arriving.",
+      "question_tr": "Boğaz akşam yemekli turunun ödemesi nasıl yapılır?",
+      "answer_tr": "Bağımsız İstanbul operatörlerinin çoğu (Bosphorus Night dahil) 'tekneye ödeme' modeli kullanır — ön ödeme yok, mekanda nakit veya kartla ödersin. Viator, GetYourGuide, Klook gibi OTA'lar rezervasyon sırasında online tahsil eder. Gelmeden önce ödeme modelini doğrula."
+    },
+    {
+      "id": "cancellation",
+      "question_en": "What is the cancellation policy?",
+      "answer_en": "For pay-on-boat operators, free cancellation usually applies up to 2 hours before departure. Online OTAs (Viator, GetYourGuide) commonly offer 24-hour-prior free cancellation but their refund policies vary. Always check the operator's specific terms.",
+      "question_tr": "İptal politikası nedir?",
+      "answer_tr": "Tekneye ödeme yapan operatörlerde genelde kalkıştan 2 saat öncesine kadar ücretsiz iptal hakkı vardır. Online OTA'lar (Viator, GetYourGuide) genelde 24 saat öncesi ücretsiz iptal sunar ama iade politikaları farklılık gösterir. Operatörün özel koşullarını her zaman kontrol et."
+    },
+    {
+      "id": "shows",
+      "question_en": "What shows or entertainment are on the dinner cruise?",
+      "answer_en": "A standard Turkish-themed dinner cruise typically includes: a Mevlana whirling dervish performance, traditional folk dances from 5–6 Anatolian regions, a belly dance show, live music (oud, clarinet, percussion), and a DJ set with international hits.",
+      "question_tr": "Akşam turunda ne tür gösteriler var?",
+      "answer_tr": "Standart Türk temalı akşam turu genelde şunları içerir: Mevlana semazen gösterisi, 5–6 Anadolu bölgesinden geleneksel halk oyunları, oryantal dans, canlı müzik (ud, klarnet, perküsyon) ve uluslararası hitlerle DJ seti."
+    },
+    {
+      "id": "best_time",
+      "question_en": "What is the best time of year for a Bosphorus dinner cruise?",
+      "answer_en": "Bosphorus cruises run year-round. May–June and September–October offer mild evenings with calm water (best for outdoor deck dining). July–August are warm but can be windy on open decks. December–February are cold (5–10°C on water) but boats have heated indoor salons; nighttime city lights are at their peak with shorter days.",
+      "question_tr": "Boğaz akşam yemekli turu için en iyi zaman?",
+      "answer_tr": "Boğaz turları yıl boyu çalışır. Mayıs-Haziran ve Eylül-Ekim ılık akşamlar ve sakin su sunar (açık güverte yemeği için ideal). Temmuz-Ağustos sıcaktır ama açık güvertede rüzgârlı olabilir. Aralık-Şubat soğuktur (su üzerinde 5-10°C) ama teknelerin ısıtmalı iç salonu vardır; gün kısa olduğu için şehir ışıkları zirvede."
+    },
+    {
+      "id": "language",
+      "question_en": "Are tour staff English-speaking?",
+      "answer_en": "Yes. Most operators serving international tourists have English-speaking hosts and crew. Major operators including Bosphorus Night additionally support Turkish, German, Russian, Arabic, Spanish, French, Italian, Chinese, Persian, Bulgarian, Polish, and Romanian via WhatsApp/Telegram booking channels.",
+      "question_tr": "Tur personeli İngilizce biliyor mu?",
+      "answer_tr": "Evet. Uluslararası turist hizmeti veren çoğu operatörün İngilizce konuşan host ve mürettebatı vardır. Bosphorus Night dahil büyük operatörler ayrıca WhatsApp/Telegram rezervasyon kanallarında Türkçe, Almanca, Rusça, Arapça, İspanyolca, Fransızca, İtalyanca, Çince, Farsça, Bulgarca, Lehçe ve Romence destek sunar."
+    }
+  ]
+}

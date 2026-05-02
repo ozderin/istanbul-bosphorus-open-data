@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Istanbul ferry piers",
+  "description": "Active ferry piers along the Bosphorus and Marmara Sea served by Şehir Hatları, Turyol and private operators. Coordinates verified against OpenStreetMap (April 2026).",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "publisher": {
+    "name": "Bosphorus Night",
+    "url": "https://www.bosphorusnight.com",
+    "license": "TÜRSAB A-17672"
+  },
+  "lastUpdated": "2026-05-02",
+  "piers": [
+    {
+      "id": "kabatas",
+      "name_en": "Kabataş Pier",
+      "name_tr": "Kabataş İskelesi",
+      "side": "European",
+      "coordinates": { "lat": 41.036085, "lon": 28.994866 },
+      "address": "Kabataş, Beyoğlu, 34437 İstanbul, Turkey",
+      "transit": {
+        "tram_t1": "Kabataş (terminus)",
+        "funicular_f1": "Kabataş ↔ Taksim (~110 sec)",
+        "metro_marmaray": null,
+        "ferry_lines": ["Üsküdar", "Kadıköy", "Adalar (Princes' Islands)", "Beşiktaş"]
+      },
+      "wikidata": null,
+      "notes": "Departure point for most private Bosphorus dinner and tour boats. Direct funicular link to Taksim (Beyoğlu). Terminus of T1 tram from Sultanahmet (~20 min)."
+    },
+    {
+      "id": "eminonu",
+      "name_en": "Eminönü Pier",
+      "name_tr": "Eminönü İskelesi",
+      "side": "European",
+      "coordinates": { "lat": 41.017716, "lon": 28.970665 },
+      "address": "Eminönü, Fatih, 34112 İstanbul, Turkey",
+      "transit": {
+        "tram_t1": "Eminönü",
+        "marmaray": "Sirkeci (~5 min walk)",
+        "ferry_lines": ["Üsküdar", "Kadıköy", "Beşiktaş", "Boğaz hattı (Anadolu Kavağı)"]
+      },
+      "wikidata": null,
+      "notes": "Largest commuter ferry hub on the European side. Walking distance to Spice Bazaar, New Mosque, Galata Bridge."
+    },
+    {
+      "id": "karakoy",
+      "name_en": "Karaköy Pier",
+      "name_tr": "Karaköy İskelesi",
+      "side": "European",
+      "coordinates": { "lat": 41.024411, "lon": 28.974464 },
+      "address": "Karaköy, Beyoğlu, 34425 İstanbul, Turkey",
+      "transit": {
+        "tram_t1": "Karaköy",
+        "tunel": "Karaköy ↔ Tünel (Beyoğlu) — historic funicular since 1875",
+        "ferry_lines": ["Kadıköy", "Haydarpaşa"]
+      },
+      "wikidata": null,
+      "notes": "Walking distance to Galata Tower (~10 min uphill). Connection to historic Tünel — second-oldest underground funicular in the world."
+    },
+    {
+      "id": "besiktas",
+      "name_en": "Beşiktaş Pier",
+      "name_tr": "Beşiktaş İskelesi",
+      "side": "European",
+      "coordinates": { "lat": 41.043567, "lon": 29.007403 },
+      "address": "Beşiktaş, 34353 İstanbul, Turkey",
+      "transit": {
+        "bus_metrobus": "Beşiktaş (multiple lines)",
+        "ferry_lines": ["Üsküdar", "Kadıköy", "Adalar (seasonal)"]
+      },
+      "wikidata": null,
+      "notes": "Adjacent to Dolmabahçe Palace (~5 min walk south) and Beşiktaş Square. Walking distance to Yıldız Park and Çırağan Palace."
+    },
+    {
+      "id": "ortakoy",
+      "name_en": "Ortaköy Pier",
+      "name_tr": "Ortaköy İskelesi",
+      "side": "European",
+      "coordinates": { "lat": 41.04772, "lon": 29.02697 },
+      "address": "Ortaköy, Beşiktaş, 34347 İstanbul, Turkey",
+      "transit": {
+        "bus": "Multiple lines via Çırağan Caddesi",
+        "ferry_lines": ["Limited — primarily a tour boat boarding point"]
+      },
+      "wikidata": null,
+      "notes": "Directly in front of Ortaköy Mosque (Q1066711). Iconic backdrop with Bosphorus Bridge directly behind. Photographer's hotspot at sunset."
+    },
+    {
+      "id": "uskudar",
+      "name_en": "Üsküdar Pier",
+      "name_tr": "Üsküdar İskelesi",
+      "side": "Asian",
+      "coordinates": { "lat": 41.026286, "lon": 29.014434 },
+      "address": "Üsküdar, 34672 İstanbul, Turkey",
+      "transit": {
+        "marmaray": "Üsküdar (Asian-side rail tunnel under the Bosphorus)",
+        "metro_m5": "Üsküdar ↔ Çekmeköy",
+        "ferry_lines": ["Eminönü", "Kabataş", "Beşiktaş"]
+      },
+      "wikidata": "Q221390",
+      "notes": "Main Asian-side ferry terminal. Marmaray rail tunnel allows 4-min crossing to Sirkeci. View of Maiden's Tower (Q210115) from pier."
+    },
+    {
+      "id": "kadikoy",
+      "name_en": "Kadıköy Pier",
+      "name_tr": "Kadıköy İskelesi",
+      "side": "Asian",
+      "coordinates": { "lat": 40.99066, "lon": 29.02391 },
+      "address": "Kadıköy, 34710 İstanbul, Turkey",
+      "transit": {
+        "metro_m4": "Kadıköy ↔ Tavşantepe / Sabiha Gökçen Airport",
+        "marmaray": "Söğütlüçeşme (~5 min)",
+        "ferry_lines": ["Eminönü", "Karaköy", "Beşiktaş", "Kabataş"]
+      },
+      "wikidata": null,
+      "notes": "Largest Asian-side commuter pier. Direct metro link to Sabiha Gökçen Airport (~50 min)."
+    },
+    {
+      "id": "beylerbeyi",
+      "name_en": "Beylerbeyi Pier",
+      "name_tr": "Beylerbeyi İskelesi",
+      "side": "Asian",
+      "coordinates": { "lat": 41.041835, "lon": 29.043617 },
+      "address": "Beylerbeyi, Üsküdar, 34676 İstanbul, Turkey",
+      "transit": {
+        "ferry_lines": ["Limited; primarily local tour boats"]
+      },
+      "wikidata": null,
+      "notes": "Adjacent to Beylerbeyi Palace (Q207313). Best viewed from Bosphorus tour boats."
+    },
+    {
+      "id": "anadolu_hisari",
+      "name_en": "Anadolu Hisarı Pier",
+      "name_tr": "Anadolu Hisarı İskelesi",
+      "side": "Asian",
+      "coordinates": { "lat": 41.080524, "lon": 29.066122 },
+      "address": "Anadolu Hisarı, Beykoz, 34810 İstanbul, Turkey",
+      "transit": {
+        "ferry_lines": ["Limited; tour boat stop"]
+      },
+      "wikidata": null,
+      "notes": "Asian-side fortress facing Rumelihisarı (Q615395) across the narrowest point of the Bosphorus (~660 m)."
+    },
+    {
+      "id": "rumeli_hisari",
+      "name_en": "Rumelihisarı Pier",
+      "name_tr": "Rumelihisarı İskelesi",
+      "side": "European",
+      "coordinates": { "lat": 41.084089, "lon": 29.057417 },
+      "address": "Rumelihisarı, Sarıyer, 34470 İstanbul, Turkey",
+      "transit": {
+        "bus": "Multiple lines via Yahya Kemal Caddesi",
+        "ferry_lines": ["Limited; tour boat stop"]
+      },
+      "wikidata": "Q615395",
+      "notes": "European-side fortress built by Sultan Mehmed II in 1452, ahead of the Conquest of Constantinople."
+    },
+    {
+      "id": "sariyer",
+      "name_en": "Sarıyer Pier",
+      "name_tr": "Sarıyer İskelesi",
+      "side": "European",
+      "coordinates": { "lat": 41.16646, "lon": 29.05543 },
+      "address": "Sarıyer, 34680 İstanbul, Turkey",
+      "transit": {
+        "bus": "25E from Kabataş",
+        "ferry_lines": ["Anadolu Kavağı (Boğaz Hattı)"]
+      },
+      "wikidata": null,
+      "notes": "Northernmost pier on the European side served by regular ferries. Connection to Black Sea entrance via Anadolu Kavağı tour."
+    }
+  ]
+}

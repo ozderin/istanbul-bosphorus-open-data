@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bosphorus dinner cruise itinerary",
+  "description": "Standard 11-stop visual route used by most Bosphorus dinner-cruise operators (3-hour evening tour, departing Kabataş 21:00). Each stop links to its Wikidata entity where one is confirmed.",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "publisher": {
+    "name": "Bosphorus Night",
+    "url": "https://www.bosphorusnight.com",
+    "license": "TÜRSAB A-17672"
+  },
+  "lastUpdated": "2026-05-02",
+  "generalRoute": {
+    "departurePier": "kabatas",
+    "returnPier": "kabatas",
+    "duration": "PT3H",
+    "departureTime": "21:00",
+    "season": "year-round",
+    "frequency": "P1D"
+  },
+  "stops": [
+    {
+      "position": 1,
+      "name_en": "Kabataş Pier (departure)",
+      "name_tr": "Kabataş İskelesi (kalkış)",
+      "wikidata": null,
+      "side": "European",
+      "coordinates": { "lat": 41.036085, "lon": 28.994866 }
+    },
+    {
+      "position": 2,
+      "name_en": "Dolmabahçe Palace",
+      "name_tr": "Dolmabahçe Sarayı",
+      "wikidata": "Q207302",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q207302",
+      "side": "European",
+      "coordinates": { "lat": 41.0391, "lon": 29.0001 },
+      "built": 1856,
+      "description": "Last Ottoman imperial residence, lit at night."
+    },
+    {
+      "position": 3,
+      "name_en": "Çırağan Palace",
+      "name_tr": "Çırağan Sarayı",
+      "wikidata": "Q1054851",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1054851",
+      "side": "European",
+      "coordinates": { "lat": 41.0431, "lon": 29.0140 },
+      "built": 1867,
+      "description": "Now a luxury hotel; original Ottoman façade illuminated at night."
+    },
+    {
+      "position": 4,
+      "name_en": "Ortaköy Mosque",
+      "name_tr": "Ortaköy Camii",
+      "wikidata": "Q1066711",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1066711",
+      "side": "European",
+      "coordinates": { "lat": 41.0471, "lon": 29.0269 },
+      "built": 1856,
+      "description": "Baroque Revival mosque directly on the waterfront, framed by the Bosphorus Bridge behind."
+    },
+    {
+      "position": 5,
+      "name_en": "Bosphorus Bridge (15 July Martyrs Bridge)",
+      "name_tr": "Boğaziçi Köprüsü (15 Temmuz Şehitler Köprüsü)",
+      "wikidata": "Q183340",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q183340",
+      "side": "Crosses Bosphorus",
+      "coordinates": { "lat": 41.0451, "lon": 29.0337 },
+      "built": 1973,
+      "length_m": 1560,
+      "description": "First suspension bridge across the Bosphorus. LED lighting changes pattern; especially photogenic from boats."
+    },
+    {
+      "position": 6,
+      "name_en": "Bebek Bay",
+      "name_tr": "Bebek Koyu",
+      "wikidata": null,
+      "side": "European",
+      "coordinates": { "lat": 41.0775, "lon": 29.0440 },
+      "description": "Affluent waterfront neighbourhood; café-lined promenade visible from boat."
+    },
+    {
+      "position": 7,
+      "name_en": "Rumeli Fortress",
+      "name_tr": "Rumelihisarı",
+      "wikidata": "Q615395",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q615395",
+      "side": "European",
+      "coordinates": { "lat": 41.0834, "lon": 29.0563 },
+      "built": 1452,
+      "description": "Fortress built by Sultan Mehmed II ahead of the Conquest of Constantinople (1453)."
+    },
+    {
+      "position": 8,
+      "name_en": "Anadolu Fortress",
+      "name_tr": "Anadolu Hisarı",
+      "wikidata": null,
+      "side": "Asian",
+      "coordinates": { "lat": 41.0823, "lon": 29.0670 },
+      "built": 1394,
+      "description": "Older Asian-side counterpart of Rumelihisarı; faces it across the narrowest point of the Bosphorus (~660 m)."
+    },
+    {
+      "position": 9,
+      "name_en": "Beylerbeyi Palace",
+      "name_tr": "Beylerbeyi Sarayı",
+      "wikidata": "Q207313",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q207313",
+      "side": "Asian",
+      "coordinates": { "lat": 41.0421, "lon": 29.0405 },
+      "built": 1865,
+      "description": "Summer residence and royal guest house used by Ottoman sultans for visiting heads of state."
+    },
+    {
+      "position": 10,
+      "name_en": "Kuzguncuk & Üsküdar",
+      "name_tr": "Kuzguncuk ve Üsküdar",
+      "wikidata": "Q221390",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q221390",
+      "side": "Asian",
+      "coordinates": { "lat": 41.0263, "lon": 29.0144 },
+      "description": "Üsküdar district. Maiden's Tower (Q210115) visible offshore — the iconic 12th-century islet lighthouse."
+    },
+    {
+      "position": 11,
+      "name_en": "Kabataş Pier (return)",
+      "name_tr": "Kabataş İskelesi (dönüş)",
+      "wikidata": null,
+      "side": "European",
+      "coordinates": { "lat": 41.036085, "lon": 28.994866 }
+    }
+  ],
+  "additionalLandmarksVisible": [
+    {
+      "name_en": "Maiden's Tower",
+      "name_tr": "Kız Kulesi",
+      "wikidata": "Q210115",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q210115",
+      "coordinates": { "lat": 41.0211, "lon": 29.0042 },
+      "description": "12th-century islet structure between Üsküdar and Sarayburnu — visible from cruise but not a docked stop."
+    },
+    {
+      "name_en": "Fatih Sultan Mehmet Bridge",
+      "name_tr": "Fatih Sultan Mehmet Köprüsü",
+      "wikidata": "Q193715",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q193715",
+      "coordinates": { "lat": 41.0911, "lon": 29.0610 },
+      "description": "Second Bosphorus suspension bridge (1988), 1510 m main span. Not crossed under by all dinner-cruise routes — depends on operator turn-around point."
+    }
+  ]
+}
